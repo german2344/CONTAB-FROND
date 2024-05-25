@@ -19,7 +19,7 @@ import {
   RowComponent,
   TableDirective,
   TextColorDirective,
-  ProcesosComponent
+
   
 
 } from '@coreui/angular';
