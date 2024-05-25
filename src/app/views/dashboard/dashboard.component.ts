@@ -1,7 +1,7 @@
 import { DOCUMENT, NgStyle } from '@angular/common';
 import { Component, DestroyRef, effect, inject, OnInit, Renderer2, signal, WritableSignal } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { ProcesosComponent } from 'src/app/pages/procesos/components/procesos/procesos.component';
+
 import { ChartOptions } from 'chart.js';
 import {
   AvatarComponent,
@@ -19,7 +19,7 @@ import {
   RowComponent,
   TableDirective,
   TextColorDirective,
-  ProcesosComponent
+
   
 
 } from '@coreui/angular';
@@ -53,7 +53,7 @@ interface IUser {
      RowComponent, ColComponent, ButtonDirective, IconDirective, ReactiveFormsModule, 
      ButtonGroupComponent, FormCheckLabelDirective, ChartjsComponent, NgStyle, CardFooterComponent,
       GutterDirective, ProgressBarDirective, ProgressComponent, WidgetsBrandComponent, CardHeaderComponent, 
-      TableDirective, AvatarComponent, ProcesosComponent]
+      TableDirective, AvatarComponent]
 })
 export class DashboardComponent implements OnInit {
 

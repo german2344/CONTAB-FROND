@@ -11,7 +11,7 @@ export const routes: Routes = [
     path: '',
     component: DefaultLayoutComponent,
     data: {
-      title: 'Home'
+      title: 'Homeoo'
     },
     children: [
       {
@@ -49,11 +49,11 @@ export const routes: Routes = [
       {
         path: 'charts',
         loadChildren: () => import('./views/charts/routes').then((m) => m.routes)
-      },
-      {
-        path: 'procesos',
-        loadChildren: () => import('./pages/procesos/procesos.module').then((m) => m.ProcesosModule)
-      },
+      }
+      // {
+      //   path: 'procesos',
+      //   loadChildren: () => import('./pages/procesos/procesos.module').then((m) => m.ProcesosModule)
+      // },
     
     ]
   },

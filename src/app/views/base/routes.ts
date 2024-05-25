@@ -16,7 +16,7 @@ export const routes: Routes = [
         path: 'accordion',
         loadComponent: () => import('./accordion/accordions.component').then(m => m.AccordionsComponent),
         data: {
-          title: 'Accordion'
+          title: 'Accordionmmm'
         }
       },
       {
